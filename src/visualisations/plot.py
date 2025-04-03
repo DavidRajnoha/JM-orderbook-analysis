@@ -7,7 +7,7 @@ def plot_total_liquidity(df_stats: pd.DataFrame):
     Plots the total liquidity over time.
 
     Parameters:
-        df_stats (pd.DataFrame): DataFrame containing the statistics.
+        df_stats (pd.DataFrame): DataFrame containing the analysis.
     """
     plt.figure(figsize=(12, 6))
     df_stats['total_liquidity'].plot()
@@ -22,7 +22,7 @@ def plot_average_fee(df_stats: pd.DataFrame):
     Plots the average fee over time.
 
     Parameters:
-        df_stats (pd.DataFrame): DataFrame containing the statistics.
+        df_stats (pd.DataFrame): DataFrame containing the analysis.
     """
     plt.figure(figsize=(12, 6))
     df_stats['average_fee'].plot()
@@ -37,7 +37,7 @@ def plot_unique_makers(df_stats: pd.DataFrame):
     Plots the number of unique makers over time.
 
     Parameters:
-        df_stats (pd.DataFrame): DataFrame containing the statistics.
+        df_stats (pd.DataFrame): DataFrame containing the analysis.
     """
     plt.figure(figsize=(12, 6))
     df_stats['total_unique_makers'].plot()
